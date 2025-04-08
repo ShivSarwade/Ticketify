@@ -1,0 +1,11 @@
+# Ignore .env files in both Frontend and Backend
+Frontend/.env
+Backend/.env
+
+# Ignore node_modules folders in both Frontend and Backend
+Frontend/node_modules/
+Backend/node_modules/
+
+# Ignore specific subfolders in the android folder but keep required files
+Frontend/android/app/build/
+Frontend/android/app/cxx/
